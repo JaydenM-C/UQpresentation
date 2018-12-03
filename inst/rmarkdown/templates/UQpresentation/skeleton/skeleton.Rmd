@@ -1,0 +1,67 @@
+---
+title: "UQ Conference Presentation"
+subtitle: "Powered by Xaringan"
+author: "Jayden Macklin-Cordes <br /> <br /> The University of Queensland <br /> <br /> e: j.macklincordes@uq.edu.au"
+date: "2016/12/12 (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    seal: false
+    css: ["default", "default-fonts", "custom-css/UQ-style.css", "custom-css/UQ-style-fonts.css"]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: '16:9'
+---
+class: uq-title-inverse, center, middle
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+# UQ Conference Presentation
+## Powered by Xaringan
+<br /> <br />
+**Jayden Macklin-Cordes**
+
+The University of Queensland
+
+j.macklincordes@uq.edu.au
+---
+class: uq-basic
+
+## My first slide
+
+Basic slide template
+
+- Add `class: uq-basic` to slide header
+- Add content as desired
+
+???
+
+Enter presenter comments here.
+
+---
+class: inverse, center, middle
+
+# Section divide
+
+---
+class: uq-title, middle
+
+.pull-left[
+  ## Thanks!
+
+  e: j.macklincordes@uq.edu.au
+  
+  https://www.macklincordes.com
+]
+
+.pull-right[
+  .small-text[
+   **Research supported by:**
+   
+   Australian Government Research Training Program
+  ]
+]

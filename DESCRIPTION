@@ -1,0 +1,23 @@
+Package: UQpresentation
+Type: Package
+Title: A Template for UQ-branded Xaringan/Remark.js Slideshow Presentations
+Version: 0.1.0
+Author: Jayden Macklin-Cordes
+Maintainer: Jayden Macklin-Cordes <j.macklincordes@uq.edu.au>
+Description: This is an unofficial UQ template for making slideshows
+    in RMarkdown. It makes use of the Xaringan package by Yihui Xie 
+    which, in turn, is built on Remark.js. This template has been built 
+    for my own personal use. I welcome anyone to use it if they find it 
+    useful, but I make absolutely no guarantees with regards to maintenance
+    or help. I stress that this is an **unofficial** UQ template which is 
+    in no way sanctioned or endorsed by The University of Queensland. It is
+    based on the new UQ Brand .pptx slideshow template available at 
+    https://omc.uq.edu.au/uq-brand and although I have made every effort to 
+    do so, I make no guarantees that it conforms to the UQ brand guidelines
+    exactly. You should therefore make your own judgement whether the 
+    template is adequate for your needs. The UQ Office of Marketing and 
+    Communications should be consulted for guidelines around appropriate 
+    use of the UQ Brand.
+License: MIT
+Encoding: UTF-8
+LazyData: true
