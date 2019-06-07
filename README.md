@@ -111,6 +111,38 @@ The package also defines a self-explanatory `.small-text[]` option (useful for r
 
 You can define your own text styles (or change existing ones)by digging into the custom CSS file supplied by the template.
 
+**Position of speaker notes with mini-transitions:**
+
+If using presenter notes and mini-transitions, note that the presenter notes become visible with the mini-transition, not full slide transition, that they belong to. They then remain visible for the rest of the slide. So for example, given the following list:
+
+```
+- Item 1
+
+???
+
+Speaker notes about item 1.
+
+--
+
+- Item 2
+
+???
+
+Speaker notes about item 2.
+```
+
+When the slide appears, the first dot point will appear on the slide and the presenter notes will read:
+
+"Speaker notes about item 1."
+
+Then, click forward one slide and the second dot point will appear, while the presenter notes will read:
+
+"Speaker notes about item 1.
+
+Speaker notes about item 2."
+
+If you were to dump presenter notes relating to all bullet points at the bottom of the slide, then they'll only appear after the last mini-transition (e.g. when you click through to the final bullet point of an incrementally-appearing list). You might be confused when you reach the start of the slide and no speaker notes are visible!
+
 **Presenting:**
 
 When you've finished writing the slideshow, you can generate an HTML file by clicking `knit` in RStudio. This generates an HTML file that can be opened in a web browser. A snazzy thing to do would be to host this HTML file on your personal website and use this to open the presentation on the lecture theatre's computer—no more fiddling around with USB sticks.
