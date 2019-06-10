@@ -108,7 +108,7 @@ class: uq-basic
 ---
 ```
 
-The package also defines a self-explanatory `.small-text[]` option (useful for references!) and an `.emph-text[]` option which turns words from regular black text to a UQ-brand-approved shade of purple. This can be handy for making key terms or quotes pop in a way that's aesthetically consistent with the theme. (Incidentally, the UQ Brand guidelines contain a list of secondary colours which could be useful if looking for other colour choices which match nicely with the main theme).
+The package also defines a self-explanatory `.small-text[]` option (useful for references!) and an `.emph-text[]` option which turns words from regular black text to a UQ-brand-approved shade of purple. This can be handy for making key terms pop in a way that's aesthetically consistent with the theme. (Incidentally, the UQ Brand guidelines contain a list of secondary colours which could be useful if looking for other colour choices which match nicely with the main theme). There are also a `.quote-text[]` (UQ-approved [Merriweather font](https://fonts.google.com/specimen/Merriweather)) and `.single-spaced-text[]` options.
 
 You can define your own text styles (or change existing ones)by digging into the custom CSS file supplied by the template.
 
