@@ -15,14 +15,31 @@ a, a > code {
   font-size: 60%;
 }
 
+.emph-text {
+  color: #962A8B;
+}
+
+.quote-text {
+  font-family: 'Merriweather', serif;
+}
+
+.single-spaced-text {
+  line-height: 1;
+}
+
 .remark-slide-content {
-	font-size: 28px
+	font-size: 28px;
+	line-height: 1.5;
 }
 
 .remark-slide-number {
   font-family: 'Roboto', sans-serif;
 	font-size: 14px;
 	color: #51247A;
+}
+
+.centered-text {
+  text-align: center;
 }
 
 /* uq-basic style for body slides */
