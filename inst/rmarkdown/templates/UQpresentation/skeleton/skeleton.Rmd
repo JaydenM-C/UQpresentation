@@ -1,7 +1,7 @@
 ---
 title: "UQ Conference Presentation"
 subtitle: "Powered by Xaringan"
-author: "Jayden Macklin-Cordes <br /> <br /> The University of Queensland <br /> <br /> e: j.macklincordes@uq.edu.au"
+author: "Author Name <br /> <br /> The University of Queensland <br /> <br /> e: e.mail@uq.edu.au"
 date: "2016/12/12 (updated: `r Sys.Date()`)"
 output:
   xaringan::moon_reader:
@@ -54,15 +54,15 @@ class: uq-title, middle
 .pull-left[
   ## Thanks!
 
-  e: j.macklincordes@uq.edu.au
+  e: e.mail@uq.edu.au
   
-  https://www.macklincordes.com
+  https://www.website.com
 ]
 
 .pull-right[
   .small-text[
    **Research supported by:**
    
-   Australian Government Research Training Program
+   Funding details
   ]
 ]
